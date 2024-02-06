@@ -5,6 +5,13 @@ h1 {
     color:rgb(223, 14, 14);
     text-align: center;
 }
+h2 {
+    color:rgb(223, 14, 14);
+    text-align: center;
+}
+textarea {
+        height: 100px;
+    }
 
 /*le # c'est pour les id*/
 #todob {
@@ -13,6 +20,15 @@ h1 {
     flex-direction: column;
     align-items: center;
     color:rgb(223, 14, 14);
+}
+#quest {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1000px;
+    color:rgb(223, 14, 14);
+    text-align: center;
 }
 
 /* le . pour les class*/
@@ -26,4 +42,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-top: 2px;
+}
+.claptai {
+    height: 100px;
 }

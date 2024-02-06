@@ -15,7 +15,7 @@
 
     <div class="centext"
         <p class="txtbl">Besto friendo</p>
-        <p class="txtbl">Aoi Todo (東堂 葵, Tōdō Aoi?) est un élève de terminale de l'école d'exorcisme de Kyoto.<br>
+        <p class="txtbl">Aoi Todo (東堂 葵, Tōdō Aoi) est un élève de terminale de l'école d'exorcisme de Kyoto.<br>
         Il est un grand fan de Takada et se considère comme le meilleur ami de Yuji Itadori. </p>
     </div>
         <!-- id c'est utilisable que une fois -->
@@ -24,13 +24,18 @@
         <a href="https://www.youtube.com/watch?v=Za5MN8nhTiI">Clique en deux deux</a>
 
         <p>CLAPP!!!</p>
-        <input type=button value="CLAP!"/>
-        </button>
-        <script type="text/javascript">
-            document.write(countclap)
-            document.write(truebff)
-        </script>
+        <input class="claptai" type="image" src="clap.png" value="CLAP!" onclick="clap()"/>
+        <p id="nbclap">0</p>
+        <p id="bffph"></p>
     </div>
 
 </body>
+<form id = "quest">
+    <h2>Rejoint nous !</h2>
+
+        <input type="text" name="name" placeholder="Donne nous ton Nom"/>
+        <input type="email" name="email" placeholder="Ton adresse mail aussi"/>
+        <textarea name="message" placeholder="Envoie toute ta motivation et t'es pieds en deux deux"></textarea>
+        <input type="button" name="evoie" placeholder="Envoie la sauce"/>
+</form>
 </html>
