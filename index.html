@@ -35,7 +35,38 @@
 
         <input type="text" name="name" placeholder="Donne nous ton Nom"/>
         <input type="email" name="email" placeholder="Ton adresse mail aussi"/>
-        <textarea name="message" placeholder="Envoie toute ta motivation et t'es pieds en deux deux"></textarea>
-        <input type="button" name="evoie" placeholder="Envoie la sauce"/>
+        <!-- rond a cocher -->
+        <fieldset>
+            <legend>t'es quoi toi ?</legend>
+                <input type="radio" id="homme" name="type" value="homme" checked/>
+                    <label for="homme">Homme</label>
+                <input type="radio" id="Femme" name="type" value="Femme"/>
+                    <label for="Femme">Femme</label>
+                <input type="radio" id="fleau" name="type" value="Fleau"/>
+                    <label for="Fleau">Fleau</label>
+        </fieldset> 
+        <!-- menu deroulant -->
+        <select name="Type de femme" id="femme-select">
+            <option value="">--Quel est ton type de femme--</option>
+            <option value="">--grande gros cul--</option>
+            <option value="">--petite gros cul--</option>
+            <option value="">--grande gros seins--</option>
+            <option value="">--petite gros seins--</option>
+            <option value="">--Grande gechar--</option>
+            <option value="">--Petite gechar--</option>
+            <option value="">--Fleau Class S--</option>
+            <option value="">--Muclé--</option>
+            <option value="">--Skinny--</option>
+            <option value="">--PNJ--</option>
+        </select>
+        <p>quand a tu maitriser l'energie Occulte:</p>
+        <input type="date" value="00/00/2000"/>
+        <p>Envoie toute ta motivation:</p>
+        <textarea name="message" placeholder="Donne tout ce que tu as Besto Friendo"></textarea>
+        <p>et t'es pieds en deux deux...:</p>
+        <input type="file" accept="image.png, iamge.jpg"/>
+        <input type="submit" value="Envoie la sauce"/>
+
+
 </form>
 </html>
