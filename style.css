@@ -12,7 +12,10 @@ h2 {
 textarea {
         height: 100px;
     }
-
+p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 /*le # c'est pour les id*/
 #todob {
     justify-content: center;
@@ -41,8 +44,14 @@ textarea {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 2px;
+    margin: none;
 }
 .claptai {
     height: 100px;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
