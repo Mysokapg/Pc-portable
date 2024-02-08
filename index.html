@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>TODO</h1>
-    <div class="centext"
+    <div class="centext">
         <p class="txtbl">Besto friendo</p>
         <p class="txtbl">Aoi Todo (東堂 葵, Tōdō Aoi) est un élève de terminale de l'école d'exorcisme de Kyoto.<br>
         Il est un grand fan de Takada et se considère comme le meilleur ami de Yuji Itadori. </p>
@@ -22,7 +22,7 @@
         <img src="todo.gif" alt="image styler de fou">
         <a href="https://www.youtube.com/watch?v=Za5MN8nhTiI">Clique en deux deux</a>
         <p>CLAPP!!!</p>
-        <input class="claptai" type="image" src="clap.png" value="CLAP!" onclick="clap()"/>
+        <input class="claptai borderimg" type="image" src="clap.png" value="CLAP!" onclick="clap()"/>
         <p id="nbclap">0</p>
         <p id="bffph"></p>
     </div>
@@ -53,44 +53,43 @@
                         <label for="alcool">Alcool</label>
                     <input type="checkbox" id="eauc" value="eauc"/>
                         <label for="eauc">Eau de cologne</label>
-                </select>
             </fieldset>
             <!-- menu deroulant -->
-            <div class="centerques">
-                <select name="Type de femme" id="femme-select">
-                    <option value="">--Quel est ton type de femme--</option>
-                    <option value="">--grande gros cul--</option>
-                    <option value="">--petite gros cul--</option>
-                    <option value="">--grande gros seins--</option>
-                    <option value="">--petite gros seins--</option>
-                    <option value="">--Grande gechar--</option>
-                    <option value="">--Petite gechar--</option>
-                    <option value="">--Fleau Class S--</option>
-                    <option value="">--Muclé--</option>
-                    <option value="">--Skinny--</option>
-                    <option value="">--PNJ--</option>
-                </select>
-                <p>quand a tu maitriser l'energie Occulte:</p>
-                <input type="date" value="00/00/2000"/>
-                <p>Envoie toute ta motivation:</p>
-                <textarea name="message" placeholder="Donne tout ce que tu as Besto Friendo"></textarea>
-                <p>et t'es pieds en deux deux...</p>
-                <input type="file" accept="image.png, iamge.jpg" />
-                <br>
-            <input type="submit" value="Envoie la sauce"/>
-        </div>
-            <div class="centerimg">
+                <div class="centerques">
+                    <select name="Type de femme" id="femme-select">
+                        <option value="">--Quel est ton type de femme--</option>
+                        <option value="">--grande gros cul--</option>
+                        <option value="">--petite gros cul--</option>
+                        <option value="">--grande gros seins--</option>
+                        <option value="">--petite gros seins--</option>
+                        <option value="">--Grande gechar--</option>
+                        <option value="">--Petite gechar--</option>
+                        <option value="">--Fleau Class S--</option>
+                        <option value="">--Muclé--</option>
+                        <option value="">--Skinny--</option>
+                        <option value="">--PNJ--</option>
+                    </select>
+                    <p>quand a tu maitriser l'energie Occulte:</p>
+                    <input type="date" value="00/00/2000"/>
+                    <p>Envoie toute ta motivation:</p>
+                    <textarea name="message" placeholder="Donne tout ce que tu as Besto Friendo"></textarea>
+                    <p>et t'es pieds en deux deux...</p>
+                    <input type="file" accept="image.png, iamge.jpg" />
+                    <br>
+                    <input type="submit" value="Envoie la sauce"/>
+                </div>
+            <div class="centerimg, autremonde">
                 <p>Todo a la plage </p>
                 <img class="marginbot" src="todoplage.jpg"/>
-                <p class="centext">Todo qui fait du Penis de table</p>
-                <img class="marginbot" src="todo tenis.jpg"/>
-                <p class="centext">Todo Roblox</p>
-                <img class="marginbot" src="todorblox.png"/>
-                <img class="marginbot" type="image" src="reactodo.png" onclick="hidetodo()" />
             </div>
+                <div class="center">
+                    <p class="textdarkt textdarkp">Veut tu vraiment être un Exorciste?</p>
+                    <p class="textdarkp textdarkpt">clique sur ce sceau si tu est sûr</p>
+                        <div class="sceau borderimg" onclick="darkmode()">
+                            <img  class="imgsceau" type="image" src="ruban_bande.png"/><img class="imgsceau" type="image" src="ruban_bande.png"/><img class="imgsceau" type="image" src="ruban_bande.png"/><img class="imgsceau" type="image" src="ruban_bande.png"/><img class="imgsceau" type="image" src="ruban_bande.png"/>
+                        </div>
+                </div>
         </form>
-        </div>
     </div>
-
 </body>
 </html>
