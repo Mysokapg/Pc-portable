@@ -1,3 +1,4 @@
+// counter de clap //
 let clapt = document.querySelector("input");
 let countclap = 0;
 let truebff = "";
@@ -9,5 +10,4 @@ function clap() {
     }
     document.getElementById("nbclap").innerText=countclap.toString();
     document.getElementById("bffph").innerText=truebff;
-
 }

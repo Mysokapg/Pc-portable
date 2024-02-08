@@ -70,3 +70,9 @@ p {
     flex-direction: column;
     width: 200px;
 }
+.marginbot {
+    margin-bottom: 20px;
+}
+.todohide {
+    width: 20px;
+}
